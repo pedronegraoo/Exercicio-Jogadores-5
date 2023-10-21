@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script src="./index.js"></script>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./planet.png" />
+
+    <title>Escalação do time</title>
+  </head>
+  <body>
+    <h1>EXERCICIO ESCALAÇÃO DE UM TIME</h1>
+    <hr />
+
+    <h2>ESCALR JOGADOR</h2>
+    <p>
+      <label for="position">Posição: </label>
+      <input type="text" id="position" class="position" />
+      <label for="name">Nome: </label>
+      <input type="text" id="name" class="name" />
+      <label for="number">Número: </label>
+      <input type="text" id="number" class="number" />
+      <button onclick="addJogador()">Adicionar Jogador</button>
+    </p>
+
+    <h2>Remover Jogador</h2>
+    <p>
+      <label for="numberRemove">Número: </label>
+      <input type="text" id="numberRemove" class="numberRemove" />
+      <button onclick="removeJogador()">Remover Jogador</button>
+    </p>
+
+    <h2>TIME</h2>
+    <ul id="teamList"></ul>
+  </body>
+</html>
